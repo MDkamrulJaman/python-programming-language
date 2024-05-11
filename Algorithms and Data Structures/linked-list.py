@@ -86,6 +86,20 @@ class LinkedList:
 
 
 ll = LinkedList()
+ll.insert('a')
+ll.insert('l')
+ll.insert('g')
+ll.insert('o')
+ll.insert(2)
+ll.insert(0)
+ll.insert(2)
+ll.delete(4)
+#print(ll.head.data)
+#print(ll.head.next.data)
+#print(ll.head.next.next.data)
+#print(ll.search(7))
+
+ll = LinkedList()
 ll.insert('l')
 ll.insert('e')
 ll.insert('g')
